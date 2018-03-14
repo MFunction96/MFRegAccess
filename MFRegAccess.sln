@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFRegAccess", "MFRegAccess\MFRegAccess.csproj", "{BCBC792D-48C9-45A5-994F-0B32335ED853}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05355215-18B2-464C-B5AC-EDD2163C7918}"
+	ProjectSection(SolutionItems) = preProject
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		ISSUE_TEMPLATE.md = ISSUE_TEMPLATE.md
+		LICENCE = LICENCE
+		PULL_REQUEST_TEMPLATE.md = PULL_REQUEST_TEMPLATE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
