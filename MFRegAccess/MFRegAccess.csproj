@@ -3,15 +3,23 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>MFunction</Authors>
     <Company>MFunction ST</Company>
     <Copyright>MFunction</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Models\Registrys\RegPath.cs~RF8d28b.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Models\Registrys\" />
     <Folder Include="Models\Structures\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
   </ItemGroup>
 
 </Project>
