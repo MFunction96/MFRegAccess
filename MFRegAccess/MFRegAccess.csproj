@@ -3,18 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>MFunction</Authors>
     <Company>MFunction ST</Company>
     <Copyright>MFunction</Copyright>
+    <PackageLicenseUrl>https://github.com/MFunction96/MFRegAccess/blob/master/LICENCE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/MFunction96/MFRegAccess</PackageProjectUrl>
+    <RepositoryType>Private</RepositoryType>
+    <RepositoryUrl>https://github.com/MFunction96/MFRegAccess</RepositoryUrl>
+    <PackageTags>Registry, P/Invoke, Windows Desktop</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Models\Registrys\RegPath.cs~RF8d28b.TMP" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\Registrys\" />
     <Folder Include="Models\Structures\" />
   </ItemGroup>
 

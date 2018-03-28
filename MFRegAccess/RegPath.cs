@@ -1,14 +1,14 @@
-﻿using MFRegAccess.Controllers;
-using MFRegAccess.Models.Enums;
-using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using MFRegAccess.Controllers;
+using MFRegAccess.Models.Enums;
+using Newtonsoft.Json;
 
-namespace MFRegAccess.Models.Registrys
+namespace MFRegAccess
 {
     /// <inheritdoc cref="IComparable"/>
     /// <inheritdoc cref="ICloneable" />

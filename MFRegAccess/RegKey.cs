@@ -1,12 +1,12 @@
-﻿using MFRegAccess.Controllers;
-using MFRegAccess.Models.Enums;
-using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
+using MFRegAccess.Controllers;
+using MFRegAccess.Models.Enums;
+using Newtonsoft.Json;
 
-namespace MFRegAccess.Models.Registrys
+namespace MFRegAccess
 {
     /// <inheritdoc cref="RegPath" />
     /// <summary>
@@ -88,12 +88,12 @@ namespace MFRegAccess.Models.Registrys
         public RegKey(string jsonFile)
         {
             var json = File.ReadAllText(jsonFile);
-            var regpath = JsonConvert.DeserializeObject<RegKey>(json);
-            HKey = regpath.HKey;
-            LpSubKey = regpath.LpSubKey;
-            LpValueName = regpath.LpValueName;
-            LpKind = regpath.LpKind;
-            LpValue = regpath.LpValue;
+            var regkey = JsonConvert.DeserializeObject<RegKey>(json);
+            HKey = regkey.HKey;
+            LpSubKey = regkey.LpSubKey;
+            LpValueName = regkey.LpValueName;
+            LpKind = regkey.LpKind;
+            LpValue = regkey.LpValue;
         }
         /// <inheritdoc />
         /// <summary>
